@@ -1,0 +1,42 @@
+/* Mise en forme générale */
+code {
+    color: #c7254e;            /* rouge rosé */
+    background: #f9f2f4;       /* léger rose/gris */
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: Consolas, "Courier New", monospace;
+  }
+
+  /* Conteneur gris clair */
+  .example-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e9ecef; /* gris clair */
+    border-radius: 6px;
+  }
+
+  /* Encadré code avec barre verte à gauche */
+  .code-box {
+    background: white;
+    border-left: 4px solid #28a745; /* barre verte */
+    padding: 15px;
+    font-family: Consolas, "Courier New", monospace;
+    white-space: pre;
+    margin-bottom: 20px;
+  }
+
+  /* Bouton vert */
+  .button {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .button:hover {
+    background: #218838;
+  }
+</style>
